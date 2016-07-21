@@ -1,0 +1,56 @@
+body{
+	margin: 0 auto;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+}
+.container1{
+	width: 430px;
+	height: 300px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(52,73,94,0.5);
+	border-radius: 4px; 
+	margin-top: 65px;
+}
+
+.container1 img{
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+input  {
+	height: 45px;
+	width: 300px;
+	font-size: 18px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	padding-left: 30px;
+}
+.form-input::before{
+	position: absolute;
+	font-family: "FontAwesome";
+	font-size: 30px;
+	padding-left: 100px;
+	color: #ddd;
+	padding-top: 5px;
+}
+
+.btn-login{
+	padding: 15px 25px;
+	color: black;
+	background-color: #ddd;
+	border:none;
+}
+
+.jumbotron1{
+	background: #428BCA;
+	color: #fff;
+	padding: 15px 0;
+}
+.jumbotron1 .titulo-blog{
+	font-size: 35px;
+	font-family: cambria;
+}
