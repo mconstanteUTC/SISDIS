@@ -22,7 +22,7 @@ $row=$resultado->fetch_assoc();
 			
 			<tr>
 				<input type="hidden" name="nombre" value "<?php echo $id;?>">
-				<td width="20">Nombre</td>
+				<td width="20">Nombre Docente</td>
 				<td width ="30"><input type="text" name="nombre" size="25" value="<?php echo $row['nombre_docentes']; ?>"/>
 			</td>
 			</tr>
