@@ -79,8 +79,8 @@ if (isset($_POST["btn1"])) {
 $sql="insert into laboratorio(numero_lab,dia_lab,fecha_lab,hora_ingreso_lab,hora_salida_lab,docente_lab,Curso_lab,asignatura_lab) values
  ('$lab','$dia','$fecha','$fen','$fsa','$nombre','$cur','$asig')";
 
-if ($lab==1) {
-	echo "<script> alert('Error esta reservado'); </script>";
+if ($lab==0) {
+	echo "<script> alert('Error al reservar'); </script>";
 	
 }else{
 	$cn= mysql_query($sql,$conex);
