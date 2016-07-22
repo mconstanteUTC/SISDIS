@@ -22,7 +22,7 @@
 					<li><a href="docentes.php"><b>Docentes</b></a></li>
 					<li><a href="reservas.php"><b>Reservas</b></a></li>
 					<li><a href="horarios.php"><b>Horarios</b></a></li>
-					<li><a href="historial.php"><b>Historial de reservas</b></a></li>
+					<li><a href="historial.php"><b>Historial de Reservas</b></a></li>
 	</ul>
 				
 			</div>
@@ -31,12 +31,12 @@
 <section class="main container">
 	<div class="row">
 		
-					<center><img src="../img/lab.jpg" WIDTH=800 HEIGHT=450 ></center>
+					<center><img src="../img/lab.jpg" WIDTH=801 HEIGHT=449 ></center>
 				
 	</div>
 	<br>
 	<div class="col-xs-6">
-				<center><b>Reserva de laboratorios Ingenieria en sistemas</b></center>
+				<center><b>Reserva de laboratorios Ingenieria en Informatica y Sistemas Computacionales</b></center>
 			</div>
 </section>
 
