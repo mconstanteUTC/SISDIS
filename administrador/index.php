@@ -19,10 +19,10 @@
 	<div  class="container" style="border: 1px solid black;background-color:#f0f8ff;font face=Arial">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#"><b>Inicio</b></a></li>
-					<li><a href="docentes.php"><b>Docentes</b></a></li>
-					<li><a href="reservas.php"><b>Reservas</b></a></li>
-					<li><a href="horarios.php"><b>Horarios</b></a></li>
-					<li><a href="historial.php"><b>Historial de Reservas</b></a></li>
+					<li><a href="Docentes.php"><b>Docentes</b></a></li>
+					<li><a href="Reservas.php"><b>Reservas</b></a></li>
+					<li><a href="Horarios.php"><b>Horarios</b></a></li>
+					<li><a href="Historial.php"><b>Historial de Reservas</b></a></li>
 	</ul>
 				
 			</div>
