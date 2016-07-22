@@ -161,6 +161,8 @@ while ($fila=mysql_fetch_array($cs)) {
                         <button id="btn-signup" type="submit" class="button" name="btn1" value="Buscar"><b>Verificar Reservaciones</b></button>	
                 
                </div>
+               
+
          </div>
     </div>
 		

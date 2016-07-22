@@ -82,6 +82,7 @@
                 <td><?php echo $datos['docente_lab']; ?></td>
                 <td><?php echo $datos['Curso_lab']; ?></td>
                 <td><?php echo $datos['asignatura_lab']; ?></td>
+         	 	<td><a href="eliminard.php?id=<?php echo $row['id_docentes'];?>">Eliminar</a></td>
                 </tr>
                 
           <?php  } ?>
