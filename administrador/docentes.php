@@ -61,10 +61,11 @@
 <table border=1 width"80%" class="demo"  >
 <thead>
 	<tr>
-		<td><b>Nombre</b></td>
-		<td><b>Apellido</b></td>
-		<td><b>Accion de </b></td>
-		<td><b>Accion de</b></td>
+		<td><b>Id docente</b></td>
+		<td><b>Nombre Docentes</b></td>
+		<td><b>Apellido Docentes</b></td>
+		<td><b>Modificar</b></td>
+		<td><b>Eliminar</b></td>
 	</tr>
 	<tbody>
 	<?php
@@ -74,6 +75,9 @@
 
 	{ ?>
 		<tr>
+			<td>
+			<?php echo $row['id_docentes']?>
+		</td>
 		<td>
 			<?php echo $row['nombre_docentes']?>
 		</td>
@@ -85,8 +89,9 @@
 			<a href="modificard.php?id=<?php echo $row['id_docentes'];?>">Modificar</a>
 		</td>
 		<td>
-			<a href="eliminar.php?id=<?php echo $row['id_docentes'];?>">Eliminar</a>
+			<a href="eliminard.php?id=<?php echo $row['id_docentes'];?>">Eliminar</a>
 		</td>
+		
 		</tr>
 		<?php } ?>
 	</tbody>

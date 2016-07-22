@@ -1,10 +1,11 @@
 <?php
 require('conexion1.php');
+$cid=$_POST['id_docente'];
 $nombred=$_POST['nombre_docente'];
 $apellidod=$_POST['apellido_docente'];
 
 
-$query = "insert into docente (nombre_docentes,apellido_docente) values ('$nombred', '$apellidod')";
+$query = "insert into docente (id_docentes, nombre_docentes,apellido_docente) values ('$cid','$nombred', '$apellidod')";
 mysql_query($query);
 $resultado=$mysqli->query($query)
 ?>
