@@ -17,7 +17,7 @@
 		<p>CENTRO DE LABORATORIOS DE SISTEMAS</p>
 	</div>
 	</div>
-	<div  class="container" style="border: 1px solid black;background-color:#f0f8ff;font face=Arial">
+	<div  class="container" style="border: 1px solid black;background-color:#f0f8ff;font face=Times New Roman">
 				<ul class="nav navbar-nav">
 					<li ><a href="index.php"><b>Inicio</b></a></li>
 					<li><a href="historial.php"><b>Historial de reservas</b></a></li>
@@ -115,7 +115,7 @@ while ($fila=mysql_fetch_array($cs)) {
 
 
                 <br>
-                <div style="margin-bottom: 25px">
+                <div style="margin-bottom: 27px">
                     <label class="col-md-3 control-label">Ingreso:</label>
                     <div class="col-md-9">
                         <input type="text" onkeypress="ValidaSoloLetras();" id="password" class="form-control" name="nombre" value="<?php echo $var4 ?>" readonly>
@@ -158,7 +158,7 @@ while ($fila=mysql_fetch_array($cs)) {
                 </div>
                   		                       				
        			<div class="col-md-offset-3 col-md-9">
-                        <button id="btn-signup" type="submit" class="button" name="btn1" value="Buscar"><b>Verificar Reservaciones</b></button>	
+                        <button id="btn-signup" type="submit" class="button" name="btn1" value="BUSCAR"><b>Verificar Reservaciones</b></button>	
                 
                </div>
                
