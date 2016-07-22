@@ -3,39 +3,6 @@
 
 ?>
 
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Laboratorio</title>
-	<link rel="shortcut icon" type="image/png" >
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../css/estilos.css">
-	<title>Registros</title>
-	<style>
-
-	.demo {
-		width:100%;
-		height:100%;
-		border:4px none #0000FF;
-		border-collapse:separate;
-		border-spacing:10px;
-		padding:4px;
-	}
-	.demo caption {
-		caption-side:top;
-		text-align:center;
-	}
-	.demo th {
-		border:4px none #0000FF;
-		padding:4px;
-		background:#328CEF;
-	}
-	.demo td {
-		border:4px none #0000FF;
-		text-align:left;
-		padding:2px;
-		background:#E8E8E8;
-	}
 </style>
 
 </head>
