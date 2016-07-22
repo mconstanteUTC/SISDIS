@@ -39,6 +39,7 @@
 <div class="container" style="border: 1px solid black;background-color:#00ccff; font face=Afont face=Arial">
 		<h1 class="titulo-blog"><b>UNIVERSIDAD TÉCNICA DE COTOPAXI</b></h1>
 		<p><b>LABORATORIOS C.I.Y.A</b></p>
+		<p><b>INGENIERIA EN INFORMATICA Y SISTEMAS COMPUTACIONALES</b></p>
 	</div>
 	<div  class="container" style="border: 1px solid black;background-color:#f0f8ff;font face=Arial">
 				<ul class="nav navbar-nav">
@@ -197,6 +198,7 @@ if ($lab==0) {
 						<option>Septimo</option>
 						<option>Octavo</option>
 						<option>Noveno</option>
+						
 					</select>
 					</td>
 				</td>
