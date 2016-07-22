@@ -24,7 +24,7 @@ $resultado=$mysqli->query($query)
 			<h2>Error al guardar</h2>
 			<?php } ?>
 		<p></p>
-	<a href="docentes.php">REGRESAR</a>
+	<a href="docentes.php">Retornar</a>
 	<br>
 	<br>
 	<div> <img src="../img/rd.png" width="200px" height="200px"></div>
